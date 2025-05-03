@@ -8,32 +8,36 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/styles/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
+
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-                <div class="navbar-collapse">
-                    <ul class="navbar-nav ml-auto">
-                        <li><a class="nav-link" href="#home">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#externalLinks">External Links</a>
-                        </li>
-                    </ul>
-                </div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav"
+                aria-controls="navbar-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#externalLinks">External Links</a>
+                    </li>
+                </ul>
             </div>
         </nav>
-        <div class="jumbotron text-center">
-            <h1 class='title'>Mental Health Awareness</h1>
+        <div class="title-bar text-left">
+            <h1 class='title display-4'>Mental Health Awareness</h1>
         </div>
     </header>
     <main>
+
         <h4 class="about">About Mental Health</h4>
         <div>
             <p>Mental health is a state of well-being in which every individual realises his or her own potential,
@@ -63,35 +67,59 @@
                 knowing what they are, can make our mental health worse. Talking can help us find hope again, and
                 feel closer to other people.</p>
         </div>
-        <div class="container">
+        <h2 class="text-center display-4">Mental health</h2>
+        <div class="container-fluid">
             <div class="row">
-                <div>
-                    <div class="card">
-                        <h4>What is it like to have better mental health?</h4>
-                        <p>When our mental health is good, we feel good inside. We might feel calm or content, peaceful, hopeful
-                            and accepting of ourselves and valued by the people who matter to us.
-
-                            Having good mental health makes life easier. It helps us to calm and comfort ourselves when we’re
-                            upset, to cope with the losses, changes, fears and uncertainties in life,
-                            to make and keep good relationships with other people and to learn.
-
-                            Having good mental health does not mean feeling good all the time. We all have our downs and ups.
-                            Life is full of unavoidable risks, worries and losses, which affect
-                            everyone. Sometimes difficult feelings pass quickly and we bounce back. Sometimes we struggle for
-                            much longer. This can happen to any of us.</p>
+                <div class="col-sm">
+                    <div class="card card-image">
+                        <img src="assets/Images/goodMentalHealth.jpg" alt="image of a person in bed" class="image-card">
                     </div>
+                </div>
+                <div class="col-lg">
                     <div class="card">
-                        <h4>What is it like to have poor mental health?</h4>
-                        <p>When our mental health is not so good, life feels more of a struggle. We might often feel sad or
+                        <div class="card-body">
+                            <h4 class="card-title text-center">What is it like to have good mental health?</h4>
+                            <p class="card-text text-center">When our mental health is good, we feel good inside. We
+                                might
+                                feel calm or content, peaceful, hopeful
+                                and accepting of ourselves and valued by the people who matter to us.
+
+                                Having good mental health makes life easier. It helps us to calm and comfort ourselves
+                                when
+                                we’re
+                                upset, to cope with the losses, changes, fears and uncertainties in life,
+                                to make and keep good relationships with other people and to learn.
+
+                                Having good mental health does not mean feeling good all the time. We all have our downs
+                                and
+                                ups.
+                                Life is full of unavoidable risks, worries and losses, which affect
+                                everyone. Sometimes difficult feelings pass quickly and we bounce back. Sometimes we
+                                struggle for
+                                much longer. This can happen to any of us.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-lg">
+                    <div class="card">
+                        <h4 class="card-title text-center">What is it like to have poor mental health?</h4>
+                        <p class="card-text text-center">When our mental health is not so good, life feels more of a
+                            struggle. We might often feel sad or
                             tearful, and hopeless and exhausted. We might feel under unbearable stress,
-                            or often worried about bad things happening to us or people we care about. All of these are very
+                            or often worried about bad things happening to us or people we care about. All of these are
+                            very
                             common experiences.
 
-                            Feeling down, anxious or stressed can mean we don’t have much energy for activities such as work or
+                            Feeling down, anxious or stressed can mean we don’t have much energy for activities such as
+                            work or
                             study, ‘life admin’ and looking after ourselves and others. It can be
                             hard to keep going.
 
-                            Feeling like this for a while could be a sign that something else in our lives is wrong, or that we
+                            Feeling like this for a while could be a sign that something else in our lives is wrong, or
+                            that we
                             need help. It is also a natural reaction, if we’ve had a major loss or
                             shock, such as bereavement, unemployment, divorce or a serious health problem.</p>
                     </div>
@@ -152,37 +180,69 @@
                 our physical and mental health.</p>
         </div>
 
-        <h2 id="externalLinks">Links to external resources</h2>
+                            However, too much stress can cause adverse effects. It can leave us in a permanent stage of
+                            fight or
+                            flight, leaving us overwhelmed or unable to cope. Long term, this can affect
+                            our physical and mental health.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 id="externalLinks" class="text-center">Links to external resources</h2>
         <div class="container">
             <div class="row">
-                <div class="col-6">
-                    <a href="https://www.nhs.uk/mental-health/">
-                        <div class="card h-100">
+                <div class="col-lg-4 col-sm-12">
+                    <a href="https://www.nhs.uk/mental-health/" target="_blank">
+                        <div class="card">
                             <h5 class="card-title text-center">NHS mental health</h5>
-                            <p class="card-text text-center">A collection of resources and advice provided by the nhs.</p>
+                            <img src="assets/Images/nhs.png" alt="NHS logo" class="link-logo-image mx-auto">
+                            <p class="card-text text-center">A collection of resources and advice provided by the nhs.
+                            </p>
                         </div>
                     </a>
                 </div>
-                <div class="col-6">
-                    <a href="https://www.mentalhealth.org.uk/explore-mental-health">
-                        <div class="card h100">
+                <div class="col-lg-4 col-sm-12">
+                    <a href="https://www.mentalhealth.org.uk/explore-mental-health" target="_blank">
+                        <div class="card">
                             <h5 class="card-title text-center">Mental Health Foundation</h5>
-                            <p class="card-text text-center">A UK based organisation focused on building better mental health in the uk</p>
+                            <img src="assets/Images/exploreMentalHealth.png" class="link-logo-image mx-auto"
+                                alt="mental health foundation logo">
+                            <p class="card-text text-center">A UK based organisation focused on building better mental
+                                health in the uk</p>
                         </div>
                     </a>
                 </div>
-                <div class="col-6">
-                    <a href="https://www.nhs.uk/every-mind-matters/">
-                        <div class="card h-100">
+                <div class="col-lg-4 col-sm-12">
+                    <a href="https://www.nhs.uk/every-mind-matters/" target="_blank">
+                        <div class="card ">
                             <h5 class="card-title text-center">NHS Every Mind Matters</h5>
-                            <p class="card-text text-center">A useful site focused on simple ways to improve your mental health.</p>
+                            <img src="assets/Images/betterHealth.png" class="link-logo-image mx-auto"
+                                alt="better health logo">
+                            <p class="card-text text-center">A useful site
+                                focused on simple ways to improve your mental health.</p>
                         </div>
                     </a>
                 </div>
             </div>
         </div>
     </main>
-    <footer></footer>
+    <footer class="text-center">
+        <p>2024 Mental Health Awareness</p>
+        <p>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px"
+                    src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                    alt="Valid CSS!" />
+                </a>
+            </p>            
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous">
+    </script>
 </body>
+
 
 </html>

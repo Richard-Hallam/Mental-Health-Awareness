@@ -22,7 +22,7 @@ The target audience is anyone with an interest in learning about mental health.
 
 
 ### Should-Have User Stories
-- **As a user I want the site to work on both mobile, desktop and tablet:**  
+- **As a user I want the site to work on both mobile and desktop:**  
 --  **Acceptance Criteria:** The site will be responsive to changes in screen size and adapt to smaller phones screens as well as larger desktop monitors. All content should still display correctly regardless of device used.
 - **As a user I want to have the content in an easy to read format:**   
 --  **Acceptance Criteria:** The content will be in an easy to read font and displayed at an apropriate size for the screen it is viewed on. All links and other interactive elements are identified to the screen reader
@@ -58,91 +58,60 @@ https://fonts.google.com/share?selection.family=Lexend+Deca:wght@100..900
 This font was chosen for both the main body text because it looks neat and is was designed for people with dyslexia and other reading problems in mind. This has the added benefit of increasing accessability. The fallback font is sans-serif. 
 
 ### Accessibility Considerations
-Discuss how accessibility guidelines were adhered to, including colour contrast and alt text for images.  
-**Guidance:** Outline how you've incorporated accessibility into your design, ensuring that your project adheres to guidelines such as WCAG.
-
-## AI Tools Usage
-
-### DALL-E
-Describe how DALL-E was used for image generation, including examples of successes and challenges.  
-**Guidance:** Specifically mention how you used DALL-E for image generation and the impact this had on your design process.
+Attributes for screen readers were included throughout the project. Font choice as explained in the above section was also decided based on accessibility.
 
 ## Features Implementation
 
 ### Core Features (Must-Haves)
-- **Feature 1:** Description of the implemented feature.
-- **Feature 2:** Description of the implemented feature.
-
-(Include all must-have features)  
-**Guidance:** Use this section as you complete Phase 2: Must User Stories Implementation & Testing. Document all the must-have features you implemented, explaining how they align with the user stories and acceptance criteria.
+- **Easy to navigate:** The website is a single page application with a fix menu that allows quick navigation to the different sections of the site.
+- **Links take the user to other pages** All links have been tested and open the correct external resource in a new tab
+- **No issues with the website** The website was checked for readability on multiple screen sizes and run through a html and css validator to check for errors.
+- **Is accessible for visually impaired users** All images have descriptive alt attributes and the nav bar has the correct aria tags for screen readers.
 
 ### Advanced Features (Should-Haves)
-- **Feature 1:** Description of the implemented feature.
-- **Feature 2:** Description of the implemented feature.
-
+- **The site is usable on both mobile and desktop:**Testing of both mobile and desktop screen sizes was conducted using chrome dev tools.
+- **Content is easy to read:** A contrasting font colour was chosen and the font family was selected with readability in mind.
 (Include all should-have features)  
-**Guidance:** Include any advanced features you implemented during Phase 3: Should User Stories Implementation & Any Advanced Features. Explain how these features enhance user experience and their alignment with the acceptance criteria.
 
 ### Optional Features (Could-Haves)
-- **Feature 1:** Description of the implemented feature (if any).
-- **Feature 2:** Description of the implemented feature (if any).
+- **Elements react when moused over:** Not implimented would be distracting on elements other than possibly the external links.
+- **The page loads quickly:** Images were selected with fast loading in mind. 
 
 (Include any could-have features that were implemented or considered)  
 **Guidance:** If any could-have features were implemented, describe them here. This is an opportunity to showcase extra work done beyond the initial scope. But remember - keep it simple! Focus on the Must stories first. Could user story features are commonly earmarked for future project iterations.
 
-## AI Tools Usage
-
-### GitHub Copilot
-Describe how GitHub Copilot assisted in coding, including any challenges or adjustments needed.  
-**Guidance:** Reflect on how GitHub Copilot assisted in coding, particularly any challenges or adjustments that were needed to align with project goals.
 
 ## Testing and Validation
 
 ### Testing Results
-Summarize the results of testing across different devices and screen sizes.  
-Mention any issues found and how they were resolved.  
-**Guidance:** Summarize the results of your testing across various devices using tools like Chrome DevTools, as outlined in Phase 2. Mention any issues found and how they were resolved.
+Testing layout on various screen sizes was done using chrome dev tools. Testing of loading speed was done on a slow 3g network using my mobile phone in a chromium based mobile browser. During the loading speed testing I discovered the design did not display well on my phone due to its narrower aspect ration than the devices I was using for testing in chrome dev tools.
 
 ### Validation
-Discuss the validation process for HTML and CSS using W3C and Jigsaw validators.  
-Include the results of the validation process.  
-**Guidance:** Document your use of W3C and Jigsaw validators to ensure your HTML and CSS meet web standards. Include any errors or warnings encountered and how they were resolved.
+**CSS validation**
+![image of css validation](/assets/Wireframes/css%20validator.png)
+Css was validated using the w3c validation service. The first run identified a missing comma in the font family causing the fallback font of sans serif to be used impacting readability.
 
-## AI Tools Usage
 
-### GitHub Copilot
-Brief reflection on the effectiveness of using AI tools for debugging and validation.  
-**Guidance:** Reflect on how GitHub Copilot assisted with debugging and validation, particularly any issues it helped resolve.
+**HTML validation**
+![Image of HTML validation](/assets/Wireframes/html-validator.png)
+HTML was validated using the w3c validation service. The first run identified one stray div closing tag which was then rectified.
 
 ## Deployment
 
 ### Deployment Process
-Briefly describe the deployment process to GitHub Pages or another cloud platform.  
-Mention any specific challenges encountered during deployment.  
-**Guidance:** Describe the steps you took to deploy your website during Phase 4: Final Testing, Debugging & Deployment, including any challenges encountered.
-
-## AI Tools Usage
-
-### Reflection
-Describe the role AI tools played in the deployment process, including any benefits or challenges.  
-**Guidance:** Reflect on how AI tools assisted with the deployment process, particularly how they streamlined any tasks or presented challenges.
+This site was deployed using github pages by navigating to settings> pages then choosing to deploy from a branch and setting that branch to be main. 
 
 ## Reflection on Development Process
-
-### Successes
-Effective use of AI tools, including GitHub Copilot and DALL-E, and how they contributed to the development process.
+The project deployment was the simplest part of the project.
 
 ### Challenges
-Describe any challenges faced when integrating AI-generated content and how they were addressed.
+The main challenges I faced were laying content out using bootstrap, making the navbar and ensuring backgrounds adapted well to other screen sizes.
 
 ### Final Thoughts
-Provide any additional insights gained during the project and thoughts on the overall process.  
-**Guidance:** Begin drafting reflections during Phase 1 and update throughout the project. Finalize this section after Phase 4. Highlight successes and challenges, particularly regarding the use of AI tools, and provide overall insights into the project.
+This project really helped me get my head around using bootstrap and was excellent practice for writing media queries,
 
 ## Code Attribution
-Properly attribute any external code sources used in the project (excluding GitHub Copilot-generated code).  
-**Guidance:** Document any external code sources used throughout the entire project, especially during Phase 2 and Phase 3. Exclude GitHub Copilot-generated code from attribution.
+Bootstrap documentation: https://getbootstrap.com/docs/4.0/getting-started/introduction/
 
 ## Future Improvements
-Briefly discuss potential future improvements or features that could be added to the project.  
-**Guidance:** Reflect on potential enhancements that could be made to the project after Phase 4: Final Testing, Debugging & Deployment. These could be Could user story features you didn’t have time to implement or improvements based on testing feedback.
+The main improvement would be further refinement of the responsive design. I consider this an mvp. There are still tweaks to be made especially around devices with narrower aspect ratios such as 21:9 smartphones. Also I am not happy with some of the images being slightly off center on smaller displays so that would need extra time to solve.

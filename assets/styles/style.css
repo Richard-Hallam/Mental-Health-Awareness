@@ -4,24 +4,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #cbf7ed;
+    background-color: #f7f9fc;
 }
 
 body {
     font-family: 'Lexend Deca', sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #f9f9f9;
+    color: #4a5568;
+    background-color: #f7f9fc;
 }
 
 .navbar {
-    background-color: #2c3e50;
-    color: #ecf0f1;
+    background-color: #5e81ac;
+    color: #ffffff;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(94, 129, 172, 0.2);
 }
 
 .navbar .navbar-collapse {
@@ -37,7 +37,7 @@ body {
 }
 
 .navbar .nav-link {
-    color: #ecf0f1;
+    color: #ffffff;
     font-weight: 600;
     margin: 0;
     padding: 0.75rem 1.5rem;
@@ -46,13 +46,13 @@ body {
 }
 
 .navbar .nav-link:hover {
-    color: #1abc9c;
-    background-color: rgba(255,255,255,0.05);
+    color: #ebf4ff;
+    background-color: rgba(255,255,255,0.1);
 }
 
 .jumbotron {
-    background-color: #1abc9c;
-    color: #fff;
+    background-color: #8fbcbb;
+    color: #2e3440;
     padding: 2rem 1rem;
     text-align: center;
     margin-bottom: 2rem;
@@ -65,13 +65,15 @@ body {
 }
 
 h4, h3, h5 {
-    color: #2c3e50;
+    color: #5e81ac;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 p {
     margin-bottom: 1rem;
-    color: #555;
+    color: #4c566a;
+    text-align: center;
 }
 
 .container {
@@ -82,28 +84,29 @@ p {
 
 .card {
     background-color: #fff;
-    border: 1px solid #ddd;
+    border: 1px solid #e5e9f0;
     border-radius: 8px;
     padding: 1.5rem;
     margin-bottom: 1.5rem;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(94, 129, 172, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 10px rgba(94, 129, 172, 0.2);
 }
 
 .card-title {
     font-size: 1.25rem;
     font-weight: 600;
     margin-bottom: 0.5rem;
+    color: #5e81ac;
 }
 
 .card-text {
     font-size: 1rem;
-    color: #666;
+    color: #4c566a;
 }
 
 .row {
@@ -125,11 +128,12 @@ ul {
 
 ul li {
     margin-bottom: 0.5rem;
+    color: #4c566a;
 }
 
 footer {
-    background-color: #2c3e50;
-    color: #ecf0f1;
+    background-color: #5e81ac;
+    color: #ffffff;
     text-align: center;
     padding: 1rem 0;
     margin-top: 2rem;
@@ -142,5 +146,5 @@ a {
 }
 
 a:hover {
-    color: #1abc9c;
+    color: #81a1c1;
 }

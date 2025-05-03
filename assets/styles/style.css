@@ -148,3 +148,8 @@ a {
 a:hover {
     color: #81a1c1;
 }
+
+#externalLinks {
+    text-align: center;
+    color: #4c566a;
+}
